@@ -1,0 +1,23 @@
+body {
+    height: 100vh;
+    width: auto;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container {
+    height: 50vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    flex-direction: column;
+}
+
+.container img {
+    height: 20vh;
+    width: 50%;
+}
